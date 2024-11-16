@@ -1,0 +1,174 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+:root {
+    --roy: #b00;
+    --blue: #00b;
+}
+
+#icon {
+    color: orangered;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    background-color: antiquewhite;
+    
+}
+
+header {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+  
+
+#nav-bar {
+    display: inherit;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: end;
+}
+
+.nav-link:hover {
+    transition: 200ms;
+    transform: scale(1.2);
+    background-color: orange;
+}
+
+.nav-link:active {
+    background-color: orangered;
+}
+
+.nav-link {
+    margin: 0 3rem;
+    padding: 0.2rem;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#product-vid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    padding-top: 10rem;
+    text-align: center;
+}
+
+#product-info {
+    margin: 5rem 25rem ;
+}
+
+#icons {
+    display: inline-flex;
+    align-items: center;
+}
+
+#paragraph {
+    display: flex;
+    justify-content: center ;
+    margin: 0 4rem;
+    padding-bottom: 3rem;
+}
+
+#submit {
+    margin-top: 1rem;
+    background-color: orange;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: orangered;
+    transition: 200ms;
+    transform: scale(1.2);
+}
+
+#email {
+    margin-top: 1rem;
+    background-color: aliceblue;
+    font-size: 1rem;
+    width: 20rem;
+    text-indent: 1rem;
+}
+
+
+#product-pricing {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#product {
+    border: 1px solid black;
+    margin: 5rem 1rem;
+}
+
+#product-name {
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    background-color: rgb(202, 201, 201);
+}
+
+#price {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+#footer-container {
+    background-color: rgb(202, 201, 201);
+    text-align: right;
+    padding: 1rem;
+    width: 50%;
+
+}
+
+#product-terms a {
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(202, 201, 201);
+}
+
+#product-terms {
+    background-color: rgb(202, 201, 201);
+}
+
+#footer-container p {
+    font-size: .8rem;
+    color: rgb(105, 103, 103);
+    font-style: italic;
+    background-color: rgb(202, 201, 201);
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
